@@ -1,5 +1,5 @@
 // Offline support: the game works without internet after the first visit.
-const CACHE = 'gaarden-v5';
+const CACHE = 'gaarden-v8';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener('activate', e => {
