@@ -44,5 +44,5 @@ Last opp alle filene og `audio`-mappen på nytt til samme repo (Add file → Upl
 ## Greit å vite
 
 - Et **Public** repo betyr at koden og spilladressen er synlige for andre som finner dem. Det er greit for testing i familien. Når spillet skal selges, pakker vi det inn som en ekte App Store-app (Capacitor + Xcode på Mac + Apple Developer-konto).
-- Stemmene er laget i ElevenLabs. De få replikkene som ikke er spilt inn ennå, leses av iPadens innebygde stemme til de er på plass.
+- Stemmene og bakgrunnsmusikken er laget i ElevenLabs.
 - Klistremerkene og innstillingene lagres på iPaden og blir værende selv om appen lukkes.
