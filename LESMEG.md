@@ -8,7 +8,7 @@ Spillet er én nettside som iPaden kan lagre som en app på Hjem-skjermen. Den �
 2. Trykk **+** øverst til høyre → **New repository**.
 3. Navn: `gaarden`. Velg **Public**. Trykk **Create repository**.
 4. På neste side: trykk lenken **uploading an existing file**.
-5. Dra inn alle filene fra denne mappen: `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `apple-touch-icon.png` (LESMEG.md kan også være med).
+5. Dra inn **alt** fra denne mappen, også mappen `audio` (dra selve mappen inn fra Finder/Utforsker, så blir undermappene med): `index.html`, `sw.js`, `manifest.webmanifest`, ikonene og `audio`.
 6. Trykk **Commit changes**.
 
 ## 2. Slå på GitHub Pages (gjør filene til en nettside)
@@ -30,11 +30,19 @@ Spillet er én nettside som iPaden kan lagre som en app på Hjem-skjermen. Den �
 - **Bedre norsk stemme:** Innstillinger → Tilgjengelighet → **Opplest innhold** → Stemmer → Norsk → last ned en stemme (f.eks. «Nora (forbedret)»).
 - Hold iPaden liggende (spillet er laget for liggende format).
 
-## 5. Oppdatere spillet senere
+## 5. Foreldremeny
 
-Last opp den nye `index.html` til samme repo (Add file → Upload files → Commit). Åpne appen mens iPaden er på nett, så henter den nyeste versjon. Lukk og åpne appen én gang til hvis du ikke ser endringen.
+Hold inne det lille tannhjulet øverst til høyre i ca. 2 sekunder (et barn som bare trykker, får ingenting). Der kan du:
+- skru stemmer, lyder og musikk opp og ned
+- sette spilletid (av, 10, 15, 20 eller 30 min). Når tiden er ute, blir det leggetid på gården etter leken barnet holder på med: det blir natt, dyrene sovner, og spillet står stille til du holder inne tannhjulet og velger «Fortsett å leke»
+- starte leggetid med en gang
+
+## 6. Oppdatere spillet senere
+
+Last opp alle filene og `audio`-mappen på nytt til samme repo (Add file → Upload files → Commit). Filer med samme navn blir erstattet. Åpne appen mens iPaden er på nett, så henter den nyeste versjon. Lukk og åpne appen én gang til hvis du ikke ser endringen.
 
 ## Greit å vite
 
 - Et **Public** repo betyr at koden og spilladressen er synlige for andre som finner dem. Det er greit for testing i familien. Når spillet skal selges, pakker vi det inn som en ekte App Store-app (Capacitor + Xcode på Mac + Apple Developer-konto).
-- Stemmene er foreløpig iPadens innebygde talesyntese. Når dere lager ekte stemmer (f.eks. i ElevenLabs), legges lydfilene inn i spillet uten at noe annet må endres.
+- Stemmene er laget i ElevenLabs. De få replikkene som ikke er spilt inn ennå, leses av iPadens innebygde stemme til de er på plass.
+- Klistremerkene og innstillingene lagres på iPaden og blir værende selv om appen lukkes.
