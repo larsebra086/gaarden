@@ -8,7 +8,7 @@ Spillet er én nettside som iPaden kan lagre som en app på Hjem-skjermen. Den �
 2. Trykk **+** øverst til høyre → **New repository**.
 3. Navn: `gaarden`. Velg **Public**. Trykk **Create repository**.
 4. På neste side: trykk lenken **uploading an existing file**.
-5. Dra inn **alt** fra denne mappen, også mappen `audio` (dra selve mappen inn fra Finder/Utforsker, så blir undermappene med): `index.html`, `sw.js`, `manifest.webmanifest`, ikonene og `audio`.
+5. Dra inn alle filene fra denne mappen: `index.html`, `sw.js`, `lyder.mp3` (alle stemmer og lyder i én fil), `manifest.webmanifest` og de tre ikonene.
 6. Trykk **Commit changes**.
 
 ## 2. Slå på GitHub Pages (gjør filene til en nettside)
@@ -39,7 +39,7 @@ Hold inne det lille tannhjulet øverst til høyre i ca. 2 sekunder (et barn som 
 
 ## 6. Oppdatere spillet senere
 
-Last opp alle filene og `audio`-mappen på nytt til samme repo (Add file → Upload files → Commit). Filer med samme navn blir erstattet. Åpne appen mens iPaden er på nett, så henter den nyeste versjon. Lukk og åpne appen én gang til hvis du ikke ser endringen.
+Last opp de tre filene `index.html`, `sw.js` og `lyder.mp3` til samme repo (Add file → Upload files → Commit). Filer med samme navn blir erstattet. Ikonene og manifest trenger du bare laste opp når de er endret. Åpne appen mens iPaden er på nett, så henter den nyeste versjon. Lukk og åpne appen én gang til hvis du ikke ser endringen.
 
 ## Greit å vite
 
